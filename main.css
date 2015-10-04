@@ -30,17 +30,12 @@ html, body{
     
 }
 h1{
-   background-image: url(/img/saturn.v1.jpg);
-   background-repeat:no-repeat;
-   background-position:center;
-   background-size:100%;
    padding:100px 0px 150px 0px;
-  
    color: #eee;
    text-shadow: gold -1px -1px;
    text-align:center;
    font-size: 4rem;
-    border-bottom: 10px solid #666;
+   border-bottom: 10px solid #666;
    
 }
 h3{
@@ -75,12 +70,18 @@ nav li{
    
 }
 #wrapper{
-    margin: 0 auto;width:1000px;
+    margin: 0 auto;
+    width:1000px;
     background-color: #444;
 
 
 }
 #masthead{
+    background-image: url(/img/saturn.v1.jpg);
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size:cover;
+   
 
 }
 #main{
